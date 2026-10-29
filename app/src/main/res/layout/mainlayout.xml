@@ -10,7 +10,7 @@
         android:id="@+id/editTextNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Note text"/>
+        android:hint="Notiztext"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -22,18 +22,18 @@
 
     <Button
         android:id="@+id/btnChooseImage"
-        android:text="Choose Image"
+        android:text="Bild auswählen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btnSave"
-        android:text="Save Note"
+        android:text="Notiz speichern"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/btnGetAll"
-        android:text="Get All"
+        android:text="Alles abrufen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"/>

@@ -74,7 +74,7 @@ class MainActivity : ComponentActivity() {
                 val currentDate = SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.getDefault()).format(Date())
                 val note = Note(0, text, imagePath, currentDate)
                 dbHelper.addNote(note)
-                Toast.makeText(this, "Note saved!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Notiz gespeichert!", Toast.LENGTH_SHORT).show()
                 loadNotes()
                 imageView.visibility = View.GONE
             }
